@@ -31,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn swiftButton">Button</a>
+                <a className="btn swiftBG">Button</a>
             </div>
         </div>
     );
