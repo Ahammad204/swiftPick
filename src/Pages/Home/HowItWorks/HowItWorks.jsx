@@ -2,7 +2,6 @@ import React from "react";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { FaBuilding, FaTruckPickup, FaWarehouse } from "react-icons/fa6";
 
-
 const HowItWorks = () => {
   const data = [
     {
@@ -32,7 +31,10 @@ const HowItWorks = () => {
       <h1 className="text-[#03373D] my-10 text-2xl font-bold">How It Works</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {data.map((d, idx) => (
-          <div key={idx} className="card  shadow-sm">
+          <div
+            key={idx}
+            className="card transition-transform duration-300 hover:scale-105 cursor-pointer shadow-sm"
+          >
             <div className="card-body">
               <div className="text-4xl text-[#03373D]">{d.Icon}</div>
               <h2 className="card-title">{d.Title}</h2>
