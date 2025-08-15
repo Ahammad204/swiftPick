@@ -28,8 +28,10 @@ const Features = () => {
     <>
       <div className="grid grid-cols-1  gap-10 ">
         {data.map((d, idx) => (
-          <div className="card card-side  p-5 bg-white hover:bg-[#CAEB66] shadow-sm transition-transform
-             duration-300 hover:scale-105 cursor-pointer" key={idx}>
+          <div
+            className="card card-side  p-5 bg-white hover:bg-[#CAEB66] shadow-sm transition-transform duration-300 hover:scale-105 cursor-pointer"
+            key={idx}
+          >
             <figure>
               <img src={d.image} alt="Movie" />
             </figure>

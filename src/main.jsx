@@ -7,7 +7,10 @@ import {Toaster} from "react-hot-toast";
 import 'aos/dist/aos.css'; 
 import Aos from 'aos';
 
-Aos.init();
+Aos.init({
+  delay: 10,
+  duration: 400
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
