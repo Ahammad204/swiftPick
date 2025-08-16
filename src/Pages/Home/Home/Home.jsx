@@ -5,6 +5,7 @@ import OurServices from '../OurServices/OurServices.jsx';
 import Brands from '../Brands/Brands.jsx';
 import Features from '../Features/Features.jsx';
 import BMarchant from '../BMarchant/BMarchant.jsx';
+import Review from '../Review/Review.jsx';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Brands/>
             <Features></Features>
             <BMarchant ></BMarchant>
+            <Review/>
         </div>
     );
 };
